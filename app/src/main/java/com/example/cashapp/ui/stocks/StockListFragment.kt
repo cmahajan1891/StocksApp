@@ -31,7 +31,6 @@ class StockListFragment : Fragment() {
         injectDependencies()
         super.onCreate(savedInstanceState)
         setupObservers()
-        viewModel.onCreate()
     }
 
     private fun setupObservers() {

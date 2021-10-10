@@ -88,8 +88,4 @@ class StockListFragmentViewModel(
         super.onCleared()
     }
 
-    fun onCreate() {
-
-    }
-
 }
