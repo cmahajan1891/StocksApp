@@ -30,3 +30,7 @@ Use of Data binding for the UI.
         
         1. To allow the view and model to communicate directly with each other
 App follows a single Activity architecture.
+
+# How to run the app
+    1. Go to Android studio preferences on Mac
+    2. Under Build, Execution, Deployment -> Build Tools -> Gradle -> Gradle JDK -> select version 11.
