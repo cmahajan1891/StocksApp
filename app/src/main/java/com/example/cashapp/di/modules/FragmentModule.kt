@@ -35,6 +35,6 @@ class FragmentModule(private val fragment: StockListFragment) {
         }
 
     @Provides
-    fun provideStocksAdapter() = StocksAdapter(ArrayList())
+    fun provideStocksAdapter() = StocksAdapter()
 
 }

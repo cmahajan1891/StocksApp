@@ -34,7 +34,7 @@ class StockListFragment : Fragment() {
     }
 
     private fun setupObservers() {
-        viewModel.stocks.observe(this, { it.data?.run { stocksAdapter.appendData(this) } })
+        viewModel.stocks.observe(this, { it.data?.run { stocksAdapter.submitList(this) } })
         viewModel.successState.observe(this, { binding.successStateVisibility = it })
         viewModel.errorState.observe(this, { binding.errorStateVisibility = it })
         viewModel.loadingState.observe(this, { binding.loadingStateVisibility = it })

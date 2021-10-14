@@ -10,10 +10,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setupView(savedInstanceState)
+        setupView()
     }
 
-    private fun setupView(savedInstanceState: Bundle?) {
+    private fun setupView() {
         addStocksListFragment()
     }
 
